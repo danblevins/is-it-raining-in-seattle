@@ -25,13 +25,13 @@ let weather = {
 
         document.querySelector(".icon").src = "https://openweathermap.org/img/wn/" + icon + ".png";
         if (weatherConditions.yes.includes(main.toLowerCase())) {
-            document.querySelector(".answer").innerText = "Yes!";
+            document.querySelector(".answer").innerText = "Yes! It's your typical Seattle day.";
         }
         else if (weatherConditions.noBut.includes(description.toLowerCase())) {
             document.querySelector(".answer").innerText = "No, but wear a Jacket.";
         }
         else {
-            document.querySelector(".answer").innerText = "Nope!";
+            document.querySelector(".answer").innerText = "Nope! They don't call it the Sunshine City for nothing.";
         }
 
         document.querySelector(".description").innerText = description;
