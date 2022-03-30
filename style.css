@@ -6,10 +6,12 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background: #222;
+    background-repeat: no-repeat;
 }
   
   .card {
     background: #222;
+    opacity: 0.95;
     color: white;
     padding: 1em;
     border-radius: 30px;
