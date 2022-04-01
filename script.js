@@ -34,6 +34,7 @@ let weather = {
             document.querySelector(".answer").innerText = "Nope! They don't call it the Sunshine City for nothing.";
         }
 
+        document.querySelector(".time").innerText = ". Updates every 10 minutes."
         document.querySelector(".description").innerText = description;
         document.querySelector(".weather").classList.remove("loading");
         document.body.style.backgroundImage =
