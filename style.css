@@ -7,6 +7,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     background: #222;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
   
   .card {
@@ -32,6 +34,16 @@ body {
     display: flex;
     align-items: center;
   }
+
+  .api {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .api a:link, .api a:visited {
+    color: white;
+  }
   
   .description {
     text-transform: capitalize;
@@ -46,7 +58,7 @@ body {
   
   .weather.loading:after {
     visibility: visible;
-    content: "Drinking Starbucks ☕...";
+    content: "Drinking Starbucks ☕ ...";
     color: white;
     position: absolute;
     top: 0;
@@ -61,6 +73,6 @@ body {
     text-align: center;
   }
 
-  a:link, a:visited {
+  .footer a:link, .footer a:visited {
     color: #0000EE;
   }
