@@ -28,10 +28,10 @@ let weather = {
             document.querySelector(".answer").innerText = "Yes! It's your typical Seattle day.";
         }
         else if (weatherConditions.noBut.includes(description.toLowerCase())) {
-            document.querySelector(".answer").innerText = "No, but wear a Jacket.";
+            document.querySelector(".answer").innerText = "No, but wear a jacket.";
         }
         else {
-            document.querySelector(".answer").innerText = "Nope! They don't call it the Sunshine City for nothing.";
+            document.querySelector(".answer").innerText = "Nope! Enjoy the weather while it lasts!";
         }
 
         document.querySelector(".time").innerText = ". Updates every 10 minutes."
